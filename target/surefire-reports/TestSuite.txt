@@ -1,20 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 14.508 s <<< FAILURE! - in TestSuite
-com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn  Time elapsed: 0.416 s  <<< FAILURE!
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 15.169 s <<< FAILURE! - in TestSuite
+com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn  Time elapsed: 2.002 s  <<< FAILURE!
 java.lang.AssertionError: expected:<Login - My Store> but was:<Login - My Stor>
 	at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
 
-com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn  Time elapsed: 1.866 s  <<< FAILURE!
+com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn  Time elapsed: 0.253 s  <<< FAILURE!
 java.lang.AssertionError: expected:<Login - My Store> but was:<Login - My Stor>
 	at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
 
-com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn  Time elapsed: 2.131 s  <<< FAILURE!
+com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn  Time elapsed: 3.001 s  <<< FAILURE!
 java.lang.AssertionError: expected:<Login - My Store> but was:<Login - My Stor>
 	at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
 
-com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn  Time elapsed: 2.696 s  <<< FAILURE!
+com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn  Time elapsed: 4.349 s  <<< FAILURE!
 java.lang.AssertionError: expected:<Login - My Store> but was:<Login - My Stor>
 	at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
 

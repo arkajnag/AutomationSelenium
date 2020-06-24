@@ -2,8 +2,11 @@ package com.Automation.Listeners;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 
+import org.apache.commons.codec.binary.Base64;
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -29,6 +32,7 @@ public class TestListeners implements ITestListener{
 	@Override
 	public void onFinish(ITestContext result) {
 		ExtentReporter.getReporter().flush();
+		
 	}
 
 	@Override
@@ -48,9 +52,18 @@ public class TestListeners implements ITestListener{
 		HashMap<String,String> allParameters=(HashMap<String, String>) result.getTestContext().getCurrentXmlTest().getAllParameters();
 		logger.fatal("Test Case:"+result.getName()+" has failed");
 		String screenShotPath="Screenshots"+File.separator+CommonUtils.getFormattedDateTime.apply("yyyy-MM-dd-HH-mm-ss")
-		+File.separator+allParameters.get("browserName")+"_"+allParameters.get("platformName")+File.separator+result.getClass().getSimpleName()+File.separator+result.getMethod()+".png";
+		+File.separator+allParameters.get("browserName")+"_"+allParameters.get("platformName")+File.separator+result.getMethod().getConstructorOrMethod().getName()+".png";
+		CommonUtils.captureScreenshot.accept(BaseClass.getDriver(), screenShotPath);
+		File file = ((TakesScreenshot)BaseClass.getDriver()).getScreenshotAs(OutputType.FILE);
+		byte[] encoded = null;
 		try {
-			ExtentReporter.getTest().fail("Test Case Failed",MediaEntityBuilder.createScreenCaptureFromPath(screenShotPath).build());
+			encoded = Base64.encodeBase64(FileUtils.readFileToByteArray(file));
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+		logger.info(screenShotPath);
+		try {
+			ExtentReporter.getTest().fail("Test Failed", MediaEntityBuilder.createScreenCaptureFromBase64String(new String(encoded, StandardCharsets.US_ASCII)).build());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

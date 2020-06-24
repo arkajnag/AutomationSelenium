@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14.508" tests="4" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.169" tests="4" errors="0" skipped="0" failures="4">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/sujatac/Documents/SeleniumFramework/Automation/target/surefire/surefirebooter6528425870143257308.jar /Users/sujatac/Documents/SeleniumFramework/Automation/target/surefire 2020-06-24T09-26-08_965-jvmRun1 surefire8672951585882205832tmp surefire_05439928388136758093tmp"/>
+    <property name="sun.java.command" value="/Users/sujatac/Documents/SeleniumFramework/Automation/target/surefire/surefirebooter6034767587474037460.jar /Users/sujatac/Documents/SeleniumFramework/Automation/target/surefire 2020-06-24T11-16-35_245-jvmRun1 surefire1724029765984406371tmp surefire_02661743319237103244tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/sujatac/Documents/SeleniumFramework/Automation/target/classes:/Users/sujatac/Documents/SeleniumFramework/Automation/target/classes:/Users/sujatac/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/sujatac/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/sujatac/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/sujatac/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/sujatac/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/sujatac/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/sujatac/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/sujatac/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/sujatac/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/sujatac/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/sujatac/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/sujatac/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/sujatac/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/sujatac/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/sujatac/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sujatac/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/sujatac/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/sujatac/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/sujatac/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/sujatac/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/sujatac/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/sujatac/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/sujatac/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/sujatac/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/sujatac/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/sujatac/.m2/repository/com/aventstack/extentreports/4.1.2/extentreports-4.1.2.jar:/Users/sujatac/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/sujatac/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/sujatac/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/sujatac/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sujatac/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/sujatac/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/sujatac/.m2/repository/org/mongodb/mongodb-driver-core/3.12.0/mongodb-driver-core-3.12.0.jar:/Users/sujatac/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:/Users/sujatac/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/sujatac/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/Users/sujatac/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/sujatac/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/sujatac/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/sujatac/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/sujatac/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/Users/sujatac/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/sujatac/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/sujatac/.m2/repository/org/apache/poi/poi-scratchpad/4.1.2/poi-scratchpad-4.1.2.jar:/Users/sujatac/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/sujatac/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/sujatac/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar:/Users/sujatac/.m2/repository/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.jar:/Users/sujatac/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.jar:/Users/sujatac/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/sujatac/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/sujatac/.m2/repository/io/rest-assured/json-path/4.3.0/json-path-4.3.0.jar:/Users/sujatac/.m2/repository/org/codehaus/groovy/groovy-json/3.0.2/groovy-json-3.0.2.jar:/Users/sujatac/.m2/repository/io/rest-assured/rest-assured-common/4.3.0/rest-assured-common-4.3.0.jar:/Users/sujatac/.m2/repository/io/rest-assured/xml-path/4.3.0/xml-path-4.3.0.jar:/Users/sujatac/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/sujatac/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/sujatac/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/sujatac/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/sujatac/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/sujatac/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/Users/sujatac/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/Users/sujatac/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/Users/sujatac/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/sujatac/.m2/repository/org/json/json/20200518/json-20200518.jar:/Users/sujatac/.m2/repository/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20.jar:/Users/sujatac/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/Users/sujatac/.m2/repository/io/qameta/allure/allure-testng/2.13.3/allure-testng-2.13.3.jar:/Users/sujatac/.m2/repository/io/qameta/allure/allure-java-commons/2.13.3/allure-java-commons-2.13.3.jar:/Users/sujatac/.m2/repository/io/qameta/allure/allure-model/2.13.3/allure-model-2.13.3.jar:/Users/sujatac/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/Users/sujatac/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:/Users/sujatac/.m2/repository/io/github/bonigarcia/webdrivermanager/4.0.0/webdrivermanager-4.0.0.jar:/Users/sujatac/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/sujatac/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar:/Users/sujatac/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0/httpclient5-5.0.jar:/Users/sujatac/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0/httpcore5-5.0.jar:/Users/sujatac/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0/httpcore5-h2-5.0.jar:/Users/sujatac/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/sujatac/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/sujatac/Documents/SeleniumFramework/Automation/target/surefire/surefirebooter6528425870143257308.jar:/Users/sujatac/.m2/repository/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"/>
+    <property name="surefire.real.class.path" value="/Users/sujatac/Documents/SeleniumFramework/Automation/target/surefire/surefirebooter6034767587474037460.jar:/Users/sujatac/.m2/repository/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -63,89 +63,94 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="tc_VerifyClickOnSignIn" classname="com.Automation.TestCases.LaunchPageTest" time="0.416">
+  <testcase name="tc_VerifyClickOnSignIn" classname="com.Automation.TestCases.LaunchPageTest" time="2.002">
     <failure message="expected:&lt;Login - My Store&gt; but was:&lt;Login - My Stor&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<Login - My Store> but was:<Login - My Stor>
 	at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
 ]]></failure>
-    <system-out><![CDATA[[INFO ] 2020-06-24-09-26 BaseClass:83 - Initializing Selenium WebDriver to start execution
-[INFO ] 2020-06-24-09-26 BaseClass:83 - Initializing Selenium WebDriver to start execution
-[INFO ] 2020-06-24-09-26 BaseClass:83 - Initializing Selenium WebDriver to start execution
-[INFO ] 2020-06-24-09-26 BaseClass:83 - Initializing Selenium WebDriver to start execution
-[INFO ] 2020-06-24-09-26 BaseClass:98 - Launching Firefox Browser in Local
-[INFO ] 2020-06-24-09-26 BaseClass:114 - Launching Chrome Browser in Remote
-[INFO ] 2020-06-24-09-26 BaseClass:119 - Launching Firefox Browser in Remote
-[INFO ] 2020-06-24-09-26 BaseClass:88 - Launching Chrome Browser in Local
-[INFO ] 2020-06-24-09-26 BaseClass:95 - Chrome Browser is launched in Local
-[INFO ] 2020-06-24-09-26 BaseClass:104 - Firefox Browser in Local
-[INFO ] 2020-06-24-09-26 BaseClass:143 - Selenium WebDriver is initialized successfully to start execution
-[INFO ] 2020-06-24-09-26 TestListeners:74 - Test Case:tc_VerifyClickOnSignIn has started
-[INFO ] 2020-06-24-09-26 LaunchPage:25 - Start Method:tc_VerifyClickOnSignIn
-[INFO ] 2020-06-24-09-26 LaunchPage:27 - End Method:tc_VerifyClickOnSignIn
-[FATAL] 2020-06-24-09-26 TestListeners:49 - Test Case:tc_VerifyClickOnSignIn has failed
-[INFO ] 2020-06-24-09-26 BaseClass:143 - Selenium WebDriver is initialized successfully to start execution
-[INFO ] 2020-06-24-09-26 TestListeners:74 - Test Case:tc_VerifyClickOnSignIn has started
-[INFO ] 2020-06-24-09-26 LaunchPage:25 - Start Method:tc_VerifyClickOnSignIn
+    <system-out><![CDATA[[INFO ] 2020-06-24-11-16 BaseClass:83 - Initializing Selenium WebDriver to start execution
+[INFO ] 2020-06-24-11-16 BaseClass:83 - Initializing Selenium WebDriver to start execution
+[INFO ] 2020-06-24-11-16 BaseClass:83 - Initializing Selenium WebDriver to start execution
+[INFO ] 2020-06-24-11-16 BaseClass:83 - Initializing Selenium WebDriver to start execution
+[INFO ] 2020-06-24-11-16 BaseClass:119 - Launching Firefox Browser in Remote
+[INFO ] 2020-06-24-11-16 BaseClass:98 - Launching Firefox Browser in Local
+[INFO ] 2020-06-24-11-16 BaseClass:114 - Launching Chrome Browser in Remote
+[INFO ] 2020-06-24-11-16 BaseClass:88 - Launching Chrome Browser in Local
+[INFO ] 2020-06-24-11-16 BaseClass:95 - Chrome Browser is launched in Local
+[INFO ] 2020-06-24-11-16 BaseClass:104 - Firefox Browser in Local
+[INFO ] 2020-06-24-11-16 BaseClass:143 - Selenium WebDriver is initialized successfully to start execution
+[INFO ] 2020-06-24-11-16 TestListeners:87 - Test Case:tc_VerifyClickOnSignIn has started
+[INFO ] 2020-06-24-11-16 LaunchPage:25 - Start Method:tc_VerifyClickOnSignIn
+[INFO ] 2020-06-24-11-16 BaseClass:143 - Selenium WebDriver is initialized successfully to start execution
+[INFO ] 2020-06-24-11-16 TestListeners:87 - Test Case:tc_VerifyClickOnSignIn has started
+[INFO ] 2020-06-24-11-16 LaunchPage:25 - Start Method:tc_VerifyClickOnSignIn
+[INFO ] 2020-06-24-11-16 LaunchPage:27 - End Method:tc_VerifyClickOnSignIn
+[FATAL] 2020-06-24-11-16 TestListeners:53 - Test Case:tc_VerifyClickOnSignIn has failed
+[INFO ] 2020-06-24-11-16 LaunchPage:27 - End Method:tc_VerifyClickOnSignIn
+[FATAL] 2020-06-24-11-16 TestListeners:53 - Test Case:tc_VerifyClickOnSignIn has failed
+[INFO ] 2020-06-24-11-16 TestListeners:64 - Screenshots/2020-06-24-11-16-43/chrome_local/tc_VerifyClickOnSignIn.png
+[INFO ] 2020-06-24-11-16 TestListeners:64 - Screenshots/2020-06-24-11-16-45/firefox_local/tc_VerifyClickOnSignIn.png
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Jun 24, 2020 9:26:11 AM org.openqa.selenium.remote.DesiredCapabilities firefox
+Jun 24, 2020 11:16:37 AM org.openqa.selenium.remote.DesiredCapabilities firefox
 INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
-Jun 24, 2020 9:26:11 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+Jun 24, 2020 11:16:37 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 48114
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 43443
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-1592983571501	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gt/hh2_zcbj5sgbqrkz1wx5rdsm0000gn/T/rust_mozprofileWJaQHz"
-Jun 24, 2020 9:26:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+1592990197590	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gt/hh2_zcbj5sgbqrkz1wx5rdsm0000gn/T/rust_mozprofileNVcpoT"
+Jun 24, 2020 11:16:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1592983573612	Marionette	INFO	Listening on port 50760
-1592983573642	Marionette	WARN	TLS certificate errors will be ignored for this session
-Jun 24, 2020 9:26:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+1592990199625	Marionette	INFO	Listening on port 52643
+1592990199642	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jun 24, 2020 11:16:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
-Jun 24, 2020 9:26:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 24, 2020 11:16:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
-Jun 24, 2020 9:26:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 24, 2020 11:16:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="tc_VerifyClickOnSignIn" classname="com.Automation.TestCases.LaunchPageTest" time="1.866">
+  <testcase name="tc_VerifyClickOnSignIn" classname="com.Automation.TestCases.LaunchPageTest" time="0.253">
     <failure message="expected:&lt;Login - My Store&gt; but was:&lt;Login - My Stor&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<Login - My Store> but was:<Login - My Stor>
 	at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
 ]]></failure>
-    <system-out><![CDATA[[INFO ] 2020-06-24-09-26 BaseClass:153 - Driver is being closed.
-[INFO ] 2020-06-24-09-26 BaseClass:157 - Driver closed successfully.
-[INFO ] 2020-06-24-09-26 LaunchPage:27 - End Method:tc_VerifyClickOnSignIn
-[FATAL] 2020-06-24-09-26 TestListeners:49 - Test Case:tc_VerifyClickOnSignIn has failed
+    <system-out><![CDATA[[INFO ] 2020-06-24-11-16 BaseClass:153 - Driver is being closed.
+[INFO ] 2020-06-24-11-16 BaseClass:143 - Selenium WebDriver is initialized successfully to start execution
+[INFO ] 2020-06-24-11-16 TestListeners:87 - Test Case:tc_VerifyClickOnSignIn has started
+[INFO ] 2020-06-24-11-16 LaunchPage:25 - Start Method:tc_VerifyClickOnSignIn
+[INFO ] 2020-06-24-11-16 BaseClass:157 - Driver closed successfully.
 ]]></system-out>
   </testcase>
-  <testcase name="tc_VerifyClickOnSignIn" classname="com.Automation.TestCases.LaunchPageTest" time="2.131">
+  <testcase name="tc_VerifyClickOnSignIn" classname="com.Automation.TestCases.LaunchPageTest" time="3.001">
     <failure message="expected:&lt;Login - My Store&gt; but was:&lt;Login - My Stor&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<Login - My Store> but was:<Login - My Stor>
 	at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
 ]]></failure>
-    <system-out><![CDATA[[INFO ] 2020-06-24-09-26 BaseClass:153 - Driver is being closed.
-[INFO ] 2020-06-24-09-26 BaseClass:143 - Selenium WebDriver is initialized successfully to start execution
-[INFO ] 2020-06-24-09-26 TestListeners:74 - Test Case:tc_VerifyClickOnSignIn has started
-[INFO ] 2020-06-24-09-26 LaunchPage:25 - Start Method:tc_VerifyClickOnSignIn
-[INFO ] 2020-06-24-09-26 BaseClass:143 - Selenium WebDriver is initialized successfully to start execution
-[INFO ] 2020-06-24-09-26 TestListeners:74 - Test Case:tc_VerifyClickOnSignIn has started
-[INFO ] 2020-06-24-09-26 LaunchPage:25 - Start Method:tc_VerifyClickOnSignIn
-[INFO ] 2020-06-24-09-26 BaseClass:157 - Driver closed successfully.
-[INFO ] 2020-06-24-09-26 LaunchPage:27 - End Method:tc_VerifyClickOnSignIn
-[FATAL] 2020-06-24-09-26 TestListeners:49 - Test Case:tc_VerifyClickOnSignIn has failed
-[INFO ] 2020-06-24-09-26 LaunchPage:27 - End Method:tc_VerifyClickOnSignIn
-[FATAL] 2020-06-24-09-26 TestListeners:49 - Test Case:tc_VerifyClickOnSignIn has failed
+    <system-out><![CDATA[[INFO ] 2020-06-24-11-16 BaseClass:153 - Driver is being closed.
+[INFO ] 2020-06-24-11-16 BaseClass:143 - Selenium WebDriver is initialized successfully to start execution
+[INFO ] 2020-06-24-11-16 TestListeners:87 - Test Case:tc_VerifyClickOnSignIn has started
+[INFO ] 2020-06-24-11-16 LaunchPage:25 - Start Method:tc_VerifyClickOnSignIn
+[INFO ] 2020-06-24-11-16 BaseClass:157 - Driver closed successfully.
+[INFO ] 2020-06-24-11-16 LaunchPage:27 - End Method:tc_VerifyClickOnSignIn
+[FATAL] 2020-06-24-11-16 TestListeners:53 - Test Case:tc_VerifyClickOnSignIn has failed
+[INFO ] 2020-06-24-11-16 LaunchPage:27 - End Method:tc_VerifyClickOnSignIn
+[FATAL] 2020-06-24-11-16 TestListeners:53 - Test Case:tc_VerifyClickOnSignIn has failed
+[INFO ] 2020-06-24-11-16 TestListeners:64 - Screenshots/2020-06-24-11-16-47/firefox_remote/tc_VerifyClickOnSignIn.png
 ]]></system-out>
-    <system-err><![CDATA[1592983579927	Marionette	INFO	Stopped listening on port 50760
+    <system-err><![CDATA[1592990206098	Marionette	INFO	Stopped listening on port 52643
 ]]></system-err>
   </testcase>
-  <testcase name="tc_VerifyClickOnSignIn" classname="com.Automation.TestCases.LaunchPageTest" time="2.696">
+  <testcase name="tc_VerifyClickOnSignIn" classname="com.Automation.TestCases.LaunchPageTest" time="4.349">
     <failure message="expected:&lt;Login - My Store&gt; but was:&lt;Login - My Stor&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<Login - My Store> but was:<Login - My Stor>
 	at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
 ]]></failure>
-    <system-out><![CDATA[[INFO ] 2020-06-24-09-26 BaseClass:153 - Driver is being closed.
+    <system-out><![CDATA[[INFO ] 2020-06-24-11-16 BaseClass:153 - Driver is being closed.
+[INFO ] 2020-06-24-11-16 TestListeners:64 - Screenshots/2020-06-24-11-16-48/chrome_remote/tc_VerifyClickOnSignIn.png
+[INFO ] 2020-06-24-11-16 BaseClass:157 - Driver closed successfully.
 ]]></system-out>
   </testcase>
 </testsuite>
