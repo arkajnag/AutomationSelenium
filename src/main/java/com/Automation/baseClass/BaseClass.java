@@ -129,6 +129,25 @@ public class BaseClass {
 					caps.setCapability("visual", true);
 					setDriver(new RemoteWebDriver(new URL(getProps().getProperty("REMOTE_URL")),caps));
 					break;
+				case "docker-image":
+					switch(browserName.toLowerCase()){
+					case "chrome":
+						logger.info("Launching Chrome Browser in Docker Machine");
+						caps=DesiredCapabilities.chrome();
+						caps.setCapability(CapabilityType.BROWSER_NAME, "chrome");
+						break;
+					case "firefox":
+						logger.info("Launching Firefox Browser in Docker Machine");
+						caps=DesiredCapabilities.firefox();
+						caps.setCapability(CapabilityType.BROWSER_NAME, "firefox");
+						break;
+					default:
+						logger.error("Sorry No Browser found to launch for Option:"+browserName+" in Remote Instance");
+						Assert.fail("Sorry No Browser found to launch for Option:"+browserName+" in Remote Instance", new NoSuchSessionException());
+					}
+					caps.setCapability("build", "AutomationPractise Docker Test Build");
+					caps.setCapability("name", "AutomationPractise-Test");
+					setDriver(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),caps));
 				default:
 					logger.error("Sorry No Platform found to launch for Option:"+browserName);
 					Assert.fail("Sorry No Platform found to launch for Option:"+browserName, new NoSuchSessionException());

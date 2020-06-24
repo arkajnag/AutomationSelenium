@@ -9,44 +9,20 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Automation Practise Suite</th></tr>
-<tr><td><a href="#t0">Chrome Local Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,820</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Firefox Local Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">9,601</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Firefox Remote Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">13,444</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t3">Chrome Remote Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">14,056</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num">0</th><th class="num attn">4</th><th class="num">45,921</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Chrome Local Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">6,693</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Firefox Local Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">10,011</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Firefox Remote Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">15,916</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Chrome Remote Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">16,730</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num">49,350</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Practise Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Chrome Local Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Automation.TestCases.LaunchPageTest</td><td><a href="#m0">tc_VerifyClickOnSignIn</a></td><td rowspan="1">1592990202358</td><td rowspan="1">1569</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Firefox Local Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Automation.TestCases.LaunchPageTest</td><td><a href="#m1">tc_VerifyClickOnSignIn</a></td><td rowspan="1">1592990203764</td><td rowspan="1">1406</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Firefox Remote Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Automation.TestCases.LaunchPageTest</td><td><a href="#m2">tc_VerifyClickOnSignIn</a></td><td rowspan="1">1592990205838</td><td rowspan="1">1817</td></tr></tbody>
-<tbody id="t3"><tr><th colspan="4">Chrome Remote Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Automation.TestCases.LaunchPageTest</td><td><a href="#m3">tc_VerifyClickOnSignIn</a></td><td rowspan="1">1592990206413</td><td rowspan="1">2126</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Practise Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Chrome Local Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Automation.TestCases.LaunchPageTest</td><td><a href="#m0">tc_VerifyClickOnSignIn</a></td><td rowspan="1">1593029192008</td><td rowspan="1">1015</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Firefox Local Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Automation.TestCases.LaunchPageTest</td><td><a href="#m1">tc_VerifyClickOnSignIn</a></td><td rowspan="1">1593029193456</td><td rowspan="1">1702</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Firefox Remote Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Automation.TestCases.LaunchPageTest</td><td><a href="#m2">tc_VerifyClickOnSignIn</a></td><td rowspan="1">1593029199472</td><td rowspan="1">1875</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Chrome Remote Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Automation.TestCases.LaunchPageTest</td><td><a href="#m3">tc_VerifyClickOnSignIn</a></td><td rowspan="1">1593029200158</td><td rowspan="1">2728</td></tr></tbody>
 </table>
-<h2>Chrome Local Test</h2><h3 id="m0">com.Automation.TestCases.LaunchPageTest#tc_VerifyClickOnSignIn</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected:&lt;Login - My Store&gt; but was:&lt;Login - My Stor&gt;
-	at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Firefox Local Test</h2><h3 id="m1">com.Automation.TestCases.LaunchPageTest#tc_VerifyClickOnSignIn</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected:&lt;Login - My Store&gt; but was:&lt;Login - My Stor&gt;
-	at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Firefox Remote Test</h2><h3 id="m2">com.Automation.TestCases.LaunchPageTest#tc_VerifyClickOnSignIn</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected:&lt;Login - My Store&gt; but was:&lt;Login - My Stor&gt;
-	at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Chrome Remote Test</h2><h3 id="m3">com.Automation.TestCases.LaunchPageTest#tc_VerifyClickOnSignIn</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected:&lt;Login - My Store&gt; but was:&lt;Login - My Stor&gt;
-	at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Chrome Local Test</h2><h3 id="m0">com.Automation.TestCases.LaunchPageTest#tc_VerifyClickOnSignIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Firefox Local Test</h2><h3 id="m1">com.Automation.TestCases.LaunchPageTest#tc_VerifyClickOnSignIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Firefox Remote Test</h2><h3 id="m2">com.Automation.TestCases.LaunchPageTest#tc_VerifyClickOnSignIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Chrome Remote Test</h2><h3 id="m3">com.Automation.TestCases.LaunchPageTest#tc_VerifyClickOnSignIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
