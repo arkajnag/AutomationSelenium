@@ -39,12 +39,12 @@
 			<class name="com.Automation.TestCases.LaunchPageTest" />
 		</classes>
 	</test>
-	<test name="Firefox Docker Image Test">
+	<!-- <test name="Firefox Docker Image Test">
 		<parameter name="platformName" value="docker-image" />
 		<parameter name="browserName" value="firefox" />
 		<classes>
 			<class name="com.Automation.TestCases.LaunchPageTest" />
 		</classes>
-	</test>
+	</test> -->
 	
 </suite> 

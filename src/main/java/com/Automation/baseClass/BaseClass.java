@@ -145,8 +145,6 @@ public class BaseClass {
 						logger.error("Sorry No Browser found to launch for Option:"+browserName+" in Remote Instance");
 						Assert.fail("Sorry No Browser found to launch for Option:"+browserName+" in Remote Instance", new NoSuchSessionException());
 					}
-					caps.setCapability("build", "AutomationPractise Docker Test Build");
-					caps.setCapability("name", "AutomationPractise-Test");
 					setDriver(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),caps));
 				default:
 					logger.error("Sorry No Platform found to launch for Option:"+browserName);
