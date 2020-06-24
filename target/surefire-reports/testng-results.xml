@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Practise Suite" duration-ms="13269" started-at="2020-06-24T07:26:10Z" finished-at="2020-06-24T07:26:24Z">
+    <groups>
+    </groups>
+    <test name="Chrome Local Test" duration-ms="7623" started-at="2020-06-24T07:26:10Z" finished-at="2020-06-24T07:26:18Z">
+      <class name="com.Automation.TestCases.LaunchPageTest">
+        <test-method status="PASS" signature="setUpTestCase(java.lang.String, java.lang.String)[pri:0, instance:com.Automation.TestCases.LaunchPageTest@13d9261f]" name="setUpTestCase" is-config="true" duration-ms="5062" started-at="2020-06-24T07:26:10Z" finished-at="2020-06-24T07:26:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestCase -->
+        <test-method status="PASS" signature="setUpTestMethod()[pri:0, instance:com.Automation.TestCases.LaunchPageTest@13d9261f]" name="setUpTestMethod" is-config="true" duration-ms="16" started-at="2020-06-24T07:26:16Z" finished-at="2020-06-24T07:26:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestMethod -->
+        <test-method status="FAIL" signature="tc_VerifyClickOnSignIn()[pri:1, instance:com.Automation.TestCases.LaunchPageTest@13d9261f]" name="tc_VerifyClickOnSignIn" duration-ms="1546" started-at="2020-06-24T07:26:16Z" description="Verify Authentication Page is Opened on click on SignIn link" finished-at="2020-06-24T07:26:17Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Login - My Store> but was:<Login - My Stor>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Login - My Store> but was:<Login - My Stor>
+at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:88)
+at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_VerifyClickOnSignIn -->
+        <test-method status="PASS" signature="tearDownTestCase()[pri:0, instance:com.Automation.TestCases.LaunchPageTest@13d9261f]" name="tearDownTestCase" is-config="true" duration-ms="89" started-at="2020-06-24T07:26:18Z" finished-at="2020-06-24T07:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestCase -->
+      </class> <!-- com.Automation.TestCases.LaunchPageTest -->
+    </test> <!-- Chrome Local Test -->
+    <test name="Firefox Local Test" duration-ms="10258" started-at="2020-06-24T07:26:10Z" finished-at="2020-06-24T07:26:21Z">
+      <class name="com.Automation.TestCases.LaunchPageTest">
+        <test-method status="PASS" signature="setUpTestCase(java.lang.String, java.lang.String)[pri:0, instance:com.Automation.TestCases.LaunchPageTest@5ef6fd7f]" name="setUpTestCase" is-config="true" duration-ms="7086" started-at="2020-06-24T07:26:10Z" finished-at="2020-06-24T07:26:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestCase -->
+        <test-method status="PASS" signature="setUpTestMethod()[pri:0, instance:com.Automation.TestCases.LaunchPageTest@5ef6fd7f]" name="setUpTestMethod" is-config="true" duration-ms="1" started-at="2020-06-24T07:26:18Z" finished-at="2020-06-24T07:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestMethod -->
+        <test-method status="FAIL" signature="tc_VerifyClickOnSignIn()[pri:1, instance:com.Automation.TestCases.LaunchPageTest@5ef6fd7f]" name="tc_VerifyClickOnSignIn" duration-ms="1582" started-at="2020-06-24T07:26:18Z" description="Verify Authentication Page is Opened on click on SignIn link" finished-at="2020-06-24T07:26:19Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Login - My Store> but was:<Login - My Stor>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Login - My Store> but was:<Login - My Stor>
+at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:88)
+at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_VerifyClickOnSignIn -->
+        <test-method status="PASS" signature="tearDownTestCase()[pri:0, instance:com.Automation.TestCases.LaunchPageTest@5ef6fd7f]" name="tearDownTestCase" is-config="true" duration-ms="1276" started-at="2020-06-24T07:26:19Z" finished-at="2020-06-24T07:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestCase -->
+      </class> <!-- com.Automation.TestCases.LaunchPageTest -->
+    </test> <!-- Firefox Local Test -->
+    <test name="Chrome Remote Test" duration-ms="12963" started-at="2020-06-24T07:26:10Z" finished-at="2020-06-24T07:26:23Z">
+      <class name="com.Automation.TestCases.LaunchPageTest">
+        <test-method status="PASS" signature="setUpTestCase(java.lang.String, java.lang.String)[pri:0, instance:com.Automation.TestCases.LaunchPageTest@6eb17ec8]" name="setUpTestCase" is-config="true" duration-ms="9864" started-at="2020-06-24T07:26:10Z" finished-at="2020-06-24T07:26:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[remote]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestCase -->
+        <test-method status="PASS" signature="setUpTestMethod()[pri:0, instance:com.Automation.TestCases.LaunchPageTest@6eb17ec8]" name="setUpTestMethod" is-config="true" duration-ms="0" started-at="2020-06-24T07:26:20Z" finished-at="2020-06-24T07:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestMethod -->
+        <test-method status="FAIL" signature="tc_VerifyClickOnSignIn()[pri:1, instance:com.Automation.TestCases.LaunchPageTest@6eb17ec8]" name="tc_VerifyClickOnSignIn" duration-ms="1948" started-at="2020-06-24T07:26:20Z" description="Verify Authentication Page is Opened on click on SignIn link" finished-at="2020-06-24T07:26:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Login - My Store> but was:<Login - My Stor>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Login - My Store> but was:<Login - My Stor>
+at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:88)
+at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_VerifyClickOnSignIn -->
+        <test-method status="PASS" signature="tearDownTestCase()[pri:0, instance:com.Automation.TestCases.LaunchPageTest@6eb17ec8]" name="tearDownTestCase" is-config="true" duration-ms="373" started-at="2020-06-24T07:26:23Z" finished-at="2020-06-24T07:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestCase -->
+      </class> <!-- com.Automation.TestCases.LaunchPageTest -->
+    </test> <!-- Chrome Remote Test -->
+    <test name="Firefox Remote Test" duration-ms="13269" started-at="2020-06-24T07:26:10Z" finished-at="2020-06-24T07:26:24Z">
+      <class name="com.Automation.TestCases.LaunchPageTest">
+        <test-method status="PASS" signature="setUpTestCase(java.lang.String, java.lang.String)[pri:0, instance:com.Automation.TestCases.LaunchPageTest@1dba4e06]" name="setUpTestCase" is-config="true" duration-ms="9454" started-at="2020-06-24T07:26:10Z" finished-at="2020-06-24T07:26:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[remote]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestCase -->
+        <test-method status="PASS" signature="setUpTestMethod()[pri:0, instance:com.Automation.TestCases.LaunchPageTest@1dba4e06]" name="setUpTestMethod" is-config="true" duration-ms="1" started-at="2020-06-24T07:26:20Z" finished-at="2020-06-24T07:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestMethod -->
+        <test-method status="FAIL" signature="tc_VerifyClickOnSignIn()[pri:1, instance:com.Automation.TestCases.LaunchPageTest@1dba4e06]" name="tc_VerifyClickOnSignIn" duration-ms="1935" started-at="2020-06-24T07:26:20Z" description="Verify Authentication Page is Opened on click on SignIn link" finished-at="2020-06-24T07:26:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Login - My Store> but was:<Login - My Stor>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Login - My Store> but was:<Login - My Stor>
+at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:88)
+at com.Automation.TestCases.LaunchPageTest.tc_VerifyClickOnSignIn(LaunchPageTest.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_VerifyClickOnSignIn -->
+        <test-method status="PASS" signature="tearDownTestCase()[pri:0, instance:com.Automation.TestCases.LaunchPageTest@1dba4e06]" name="tearDownTestCase" is-config="true" duration-ms="1243" started-at="2020-06-24T07:26:22Z" finished-at="2020-06-24T07:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestCase -->
+      </class> <!-- com.Automation.TestCases.LaunchPageTest -->
+    </test> <!-- Firefox Remote Test -->
+  </suite> <!-- Automation Practise Suite -->
+</testng-results>

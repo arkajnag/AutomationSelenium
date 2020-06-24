@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Practise Suite" parallel="tests">
+	<listeners>
+		<listener class-name="com.Automation.Listeners.TestListeners" />
+	</listeners>
+	<test name="Chrome Local Test">
+		<parameter name="platformName" value="local" />
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<class name="com.Automation.TestCases.LaunchPageTest" />
+		</classes>
+	</test>
+	<test name="Firefox Local Test">
+		<parameter name="platformName" value="local" />
+		<parameter name="browserName" value="firefox" />
+		<classes>
+			<class name="com.Automation.TestCases.LaunchPageTest" />
+		</classes>
+	</test>
+	<test name="Chrome Remote Test">
+		<parameter name="platformName" value="remote" />
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<class name="com.Automation.TestCases.LaunchPageTest" />
+		</classes>
+	</test>
+	<test name="Firefox Remote Test">
+		<parameter name="platformName" value="remote" />
+		<parameter name="browserName" value="firefox" />
+		<classes>
+			<class name="com.Automation.TestCases.LaunchPageTest" />
+		</classes>
+	</test>
+
+</suite> 

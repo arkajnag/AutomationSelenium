@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Automation Practise Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.Automation.Listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Chrome Local Test(failed)" parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="platformName" value="local"/>
+    <classes>
+      <class name="com.Automation.TestCases.LaunchPageTest">
+        <methods>
+          <include name="setUpTestMethod"/>
+          <include name="tearDownTestCase"/>
+          <include name="tc_VerifyClickOnSignIn"/>
+          <include name="setUpTestCase"/>
+        </methods>
+      </class> <!-- com.Automation.TestCases.LaunchPageTest -->
+    </classes>
+  </test> <!-- Chrome Local Test(failed) -->
+  <test thread-count="5" verbose="0" name="Firefox Local Test(failed)" parallel="tests">
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="platformName" value="local"/>
+    <classes>
+      <class name="com.Automation.TestCases.LaunchPageTest">
+        <methods>
+          <include name="setUpTestMethod"/>
+          <include name="tearDownTestCase"/>
+          <include name="tc_VerifyClickOnSignIn"/>
+          <include name="setUpTestCase"/>
+        </methods>
+      </class> <!-- com.Automation.TestCases.LaunchPageTest -->
+    </classes>
+  </test> <!-- Firefox Local Test(failed) -->
+  <test thread-count="5" verbose="0" name="Chrome Remote Test(failed)" parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="platformName" value="remote"/>
+    <classes>
+      <class name="com.Automation.TestCases.LaunchPageTest">
+        <methods>
+          <include name="setUpTestMethod"/>
+          <include name="tearDownTestCase"/>
+          <include name="tc_VerifyClickOnSignIn"/>
+          <include name="setUpTestCase"/>
+        </methods>
+      </class> <!-- com.Automation.TestCases.LaunchPageTest -->
+    </classes>
+  </test> <!-- Chrome Remote Test(failed) -->
+  <test thread-count="5" verbose="0" name="Firefox Remote Test(failed)" parallel="tests">
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="platformName" value="remote"/>
+    <classes>
+      <class name="com.Automation.TestCases.LaunchPageTest">
+        <methods>
+          <include name="setUpTestMethod"/>
+          <include name="tearDownTestCase"/>
+          <include name="tc_VerifyClickOnSignIn"/>
+          <include name="setUpTestCase"/>
+        </methods>
+      </class> <!-- com.Automation.TestCases.LaunchPageTest -->
+    </classes>
+  </test> <!-- Firefox Remote Test(failed) -->
+</suite> <!-- Failed suite [Automation Practise Suite] -->
