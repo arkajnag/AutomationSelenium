@@ -1,8 +1,7 @@
 FROM alpine:latest
 MAINTAINER Arkajyoti Nag(arka.imps@gmail.com)
 RUN apk update
-RUN apk fetch openjdk8
-RUN apk add openjdk
+RUN apk add --no-cache openjdk8
 RUN apk add --no-cache curl tar bash procps
 # Downloading and installing Maven
 # 1- Define a constant with the version of maven you want to install
