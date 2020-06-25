@@ -2,8 +2,7 @@ FROM alpine:latest
 MAINTAINER Arkajyoti Nag(arka.imps@gmail.com)
 RUN apk update
 RUN apk add --no-cache openjdk8
-RUN apk add --no-cache curl tar bash procps
-RUN apk install -y maven
+RUN apk add --no-cache maven
 COPY pom.xml /usr/local/share/AutomationPractise/pom.xml
 COPY src /usr/local/share/AutomationPractise/src
 COPY testng.xml /usr/local/share/AutomationPractise/testng.xml
