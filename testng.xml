@@ -3,6 +3,7 @@
 <suite name="Automation Practise Suite" parallel="tests">
 	<listeners>
 		<listener class-name="com.Automation.Listeners.TestListeners" />
+		<listener class-name="com.Automation.Listeners.TestTransformAnnotations" />
 	</listeners>
 <!-- 	<test name="Chrome Local Test">
 		<parameter name="platformName" value="local" />
